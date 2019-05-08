@@ -9,7 +9,7 @@ class AboutContainer extends React.Component {
 	}
 
 	render() {
-		return <AboutView userProfile={this.props.userProfile} />;
+		return <AboutView userProfile={this.props.userProfile} isLoadingProfile={this.props.isLoadingProfile} />;
 	}
 }
 

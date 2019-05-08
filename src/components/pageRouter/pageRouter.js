@@ -1,13 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Home from '../home/home';
 import AboutContainer from '../about/aboutContainer';
 
 export default function() {
 	return (
-		<Router>
-			<Route exact path="/" component={Home} />
+		<Switch>
+			<Route path="/" component={Home} exact />
 			<Route path="/About" component={AboutContainer} />
-		</Router>
+		</Switch>
 	);
 }

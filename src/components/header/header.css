@@ -1,0 +1,27 @@
+.navbar a {
+	color: #ffffff;
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+.navbar {
+	background-color: #343a40;
+	flex-grow: 1;
+	flex-direction: column;
+	display: flex;
+}
+
+.navbarItems {
+	width: 80%;
+	flex-direction: row;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbarBrand {
+	text-align: left;
+}
+
+.navbarLinks a {
+	padding-left: 30px;
+}
