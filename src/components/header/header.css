@@ -6,9 +6,9 @@
 
 .navbar {
 	background-color: #343a40;
-	flex-grow: 1;
 	flex-direction: column;
 	display: flex;
+	height: 45px;
 }
 
 .navbarItems {

@@ -1,0 +1,9 @@
+.frame-container {
+	flex: 1;
+	display: flex;
+}
+
+iframe {
+	flex: 1;
+	min-height: 1000px;
+}

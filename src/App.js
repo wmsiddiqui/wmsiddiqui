@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import PageRouter from './components/pageRouter/pageRouter';
+import Page from './components/page/page';
 import Header from './components/header/header';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
 		<div className="App">
 			<BrowserRouter>
 				<Header />
-				<PageRouter />
+				<Page />
 			</BrowserRouter>
 		</div>
 	);

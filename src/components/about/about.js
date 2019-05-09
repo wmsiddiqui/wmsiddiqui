@@ -6,9 +6,11 @@ export default function(props) {
 
 	if (props.isLoadingProfile) {
 		content = (
-			<Spinner animation="border" role="status">
-				<span className="sr-only">Loading...</span>
-			</Spinner>
+			<div>
+				<Spinner animation="border" role="status">
+					<span className="sr-only">Loading...</span>
+				</Spinner>
+			</div>
 		);
 	} else {
 		content = <span>{props.userProfile.bio}</span>;
