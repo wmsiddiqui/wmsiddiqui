@@ -4,7 +4,7 @@ import './page.css';
 
 export default function() {
 	return (
-		<div className="page-container">
+		<div className="page">
 			<div className="page-contents">
 				<PageRouter />
 			</div>
