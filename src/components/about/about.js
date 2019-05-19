@@ -15,38 +15,61 @@ export default function(props) {
 		);
 	} else {
 		content = (
-			<span>
+			<div>
 				<img src={props.userProfile.avatar_url} className="avatar" alt="avatar" />
 				<br />
-				{props.userProfile.bio}
-			</span>
+				<p className="caption">{props.userProfile.bio}</p>
+			</div>
 		);
 	}
 	return (
 		<React.Fragment>
-			<h1>About Me</h1>
 			{content}
-			<br />
-			<span>
+			<div className="body-content">
+				<h2 className="header">About Me</h2>
 				My name is Waqar Siddiqui. I like making everything from software to Gunpla (check out my gallery for
 				some of my work). I live near Seattle, but originally grew up near Chicago. After graduating from the
 				University of Illinois in Urbana-Champaign, I worked in Chicago for a few years. I had no intention of
 				leaving Chicago, but life had other plans for me. I somehow managed to end up living in Redmond with my
-				wife, while I work at Microsoft. <br />
-				<br /> I'm a fullstack software engineer, and am interested in everything from DevOps to UI development.
-				Early on in my career I was focused on mostly backend systems. I've worked with cloud platforms such as
-				AWS and Azure, and believe they are both great tools for any software developer to utilize, for reasons
-				including reliability, scalability, and cost. I've been striving to be a more well rounded engineer, so
-				I've been trying to get more hands on experience with UI development both at work and on my own time. My
-				intent is not necessarily to become a UI expert, but to become "good enough" at UI to be able to
-				understand various UI concepts and for me to have the ability to produce front end code if needed. This
-				website was created using React and Redux (although you can argue that Redux was not needed, I just
-				couldn't resist the urge to do so). It may not be the greatest, but I'm by no means a front end UI
-				designer. Instead, I am interested in a wide variety of topics related to software engineering. Although
-				my favorite programming language is currently C#, I think it's important to acknowlege the fact that
-				there is no perfect language or technology. Instead, I like to find the best technology for the task at
-				hand. For a more detailed description of my professional work experience, check out my resume.
-			</span>
+				wife, while I work at Microsoft.
+				<h2 className="header">Hobbies</h2>
+				I've had a wide range of hobbies over the years. I used to be (and still am) a huge fan of Yu-Gi-Oh! I
+				spent years playing the card game as a child, and eventually became an official Judge and judged local
+				tournaments. Unfortunately, (or fortunately) working full time and spending time with my wife left me
+				little to no time to pursue this hobby anymore. It still has a special place in my heart, and I'll
+				always hold my Monarchs and Dark World deck close to my heart.
+				<br />
+				<br />
+				I enjoy video games, but like Yu-Gi-Oh!, I've had little time to play any of them over the past few
+				years. I tried to play competitive Pokemon for a while, but was never very good at it. You'll still find
+				me playing Pokemon Showdown every now and then. Disclaimer: I'm not the best. Overall, though, I think I
+				enjoy making games more than I like playing them. Feel free to check out all my abandoned (and some
+				public active) Github projects.
+				<br />
+				<br />
+				My most recent hobby has been Gunpla, plastic model kits based on Mobile Suit Gundam. Check out my
+				gallary for some of my latest work!
+				<h2 className="header">What I Do</h2>
+				I'm a fullstack software engineer, and am interested in everything from DevOps to UI development. Early
+				on in my career I was focused on mostly backend systems. My current role at Microsoft involves a lot of
+				front-end UI work, using React and Redux. I'm by no means a front-end developer, but I believe that a
+				good engineer will be whatever their team needs them to be. For the time being, my team is new to React
+				and Redux, so I've been expected to be the React and JavaScript expert to help provide guidance for my
+				team.
+				<h2 className="header">Goals</h2>
+				I always strive to be a well rounded engineer. I think to do so requires me to have some working
+				knowledge of various different domains. I've worked with cloud platforms such as AWS and Azure, and
+				believe they are both great tools for any software developer to utilize, for reasons including
+				reliability, scalability, and cost. I think it's important to become even more familiar with these
+				techonolgies, because it's clear that they will be the integral parts of software systems in the future.
+				<br />
+				<br />
+				I'm a huge fan of the Agile methodology, but it's vital that it's done right. When it does work, though,
+				it can result in some very high functioning efficient teams. I'd love to promote and facilitate the
+				Agile process on any team that I'm on.
+				<h2 className="header">Work Experience</h2>
+				For detailed information on my work experience, check out my LinkedIn, or check out my resume.
+			</div>
 		</React.Fragment>
 	);
 }

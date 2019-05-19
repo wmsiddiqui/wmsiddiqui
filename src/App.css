@@ -21,3 +21,8 @@ h1 {
 	width: 100%;
 	flex: 1 0 1px;
 }
+
+.body-content {
+	text-align: left;
+	margin-bottom: 50px;
+}
