@@ -23,7 +23,7 @@ export default function(props) {
 		);
 	}
 	return (
-		<React.Fragment>
+		<div>
 			{content}
 			<div className="body-content">
 				<h2 className="header">About Me</h2>
@@ -70,6 +70,6 @@ export default function(props) {
 				<h2 className="header">Work Experience</h2>
 				For detailed information on my work experience, check out my LinkedIn, or check out my resume.
 			</div>
-		</React.Fragment>
+		</div>
 	);
 }
