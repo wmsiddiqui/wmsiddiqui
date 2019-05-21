@@ -7,7 +7,7 @@ export default function(props) {
 
 	if (props.isLoadingProfile) {
 		content = (
-			<div>
+			<div className="loading">
 				<Spinner animation="border" role="status">
 					<span className="sr-only">Loading...</span>
 				</Spinner>
