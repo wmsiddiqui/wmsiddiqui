@@ -1,7 +1,7 @@
 import { BEGIN_GET_USER, COMPLETE_GET_USER } from './githubActions';
 
 const initialState = {
-	userProfile: {},
+	userProfile: null,
 	loadingUser: false
 };
 

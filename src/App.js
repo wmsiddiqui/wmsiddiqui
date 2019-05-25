@@ -1,10 +1,9 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
-import './App.css';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Page from './components/page/page';
 import Header from './components/header/header';
-import { Switch, Route } from 'react-router-dom';
 import Resume from './components/resume/resume';
+import './App.css';
 
 function App() {
 	return (

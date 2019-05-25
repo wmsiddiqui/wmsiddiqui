@@ -1,9 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import AboutView from './aboutView';
 import { getGithubUser } from '../../state/github/githubActions';
+import ProjectsView from './projectsView';
 
-class AboutContainer extends React.Component {
+class ProjectsContainer extends React.Component {
 	componentDidMount() {
 		if (!this.props.userProfile) {
 			this.props.getGithubUser('wmsiddiqui');
@@ -11,7 +11,7 @@ class AboutContainer extends React.Component {
 	}
 
 	render() {
-		return <AboutView userProfile={this.props.userProfile} isLoadingProfile={this.props.isLoadingProfile} />;
+		return <ProjectsView userProfile={this.props.userProfile} isLoadingProfile={this.props.isLoadingProfile} />;
 	}
 }
 
@@ -26,4 +26,4 @@ const mapDispatchToProps = {
 	getGithubUser
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(AboutContainer);
+export default connect(mapStateToProps, mapDispatchToProps)(ProjectsContainer);
