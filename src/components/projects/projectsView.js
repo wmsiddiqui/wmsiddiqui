@@ -15,9 +15,8 @@ export default function(props) {
 	} else {
 		content = (
 			<div>
-				<img src={props.userProfile.avatar_url} className="avatar" alt="avatar" />
 				<br />
-				<p className="caption">{props.userProfile.bio}</p>
+				Test
 			</div>
 		);
 	}

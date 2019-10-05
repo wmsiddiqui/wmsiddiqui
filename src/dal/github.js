@@ -10,3 +10,12 @@ export async function getUser(userName) {
 		return null;
 	}
 }
+
+export async function getRepos(userName) {
+	try {
+		const result = await get(`${GITHUB_API_URL}/users/${userName}/repos`);
+		return (result && result.data) || null;
+	} catch (e) {
+		return null;
+	}
+}

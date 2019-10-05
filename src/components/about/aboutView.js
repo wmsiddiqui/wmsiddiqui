@@ -36,15 +36,14 @@ export default function(props) {
 				I've had a wide range of hobbies over the years. I used to be (and still am) a huge fan of Yu-Gi-Oh! I
 				spent years playing the card game as a child, and eventually became an official Judge and judged local
 				tournaments. Unfortunately, (or fortunately) working full time and spending time with my wife left me
-				little to no time to pursue this hobby anymore. It still has a special place in my heart, and I'll
-				always hold my Monarchs and Dark World deck close to my heart.
+				little to no time to pursue this hobby anymore. It will always have a special place in my heart.
 				<br />
 				<br />
 				I enjoy video games, but like Yu-Gi-Oh!, I've had little time to play any of them over the past few
 				years. I tried to play competitive Pokemon for a while, but was never very good at it. You'll still find
-				me playing Pokemon Showdown every now and then. Disclaimer: I'm not the best. Overall, though, I think I
-				enjoy making games more than I like playing them. Feel free to check out all my abandoned (and some
-				public active) Github projects.
+				me playing Pokemon Showdown every now and then. You'll occasionally catch me playing couch co-op games
+				with my wife, like Gears and Halo. Overall, though, I think I enjoy making games more than I like
+				playing them. Feel free to check out all my abandoned Github projects.
 				<br />
 				<br />
 				My most recent hobby has been Gunpla, plastic model kits based on Mobile Suit Gundam. Check out my
@@ -64,9 +63,9 @@ export default function(props) {
 				techonolgies, because it's clear that they will be the integral parts of software systems in the future.
 				<br />
 				<br />
-				I'm a huge fan of the Agile methodology, but it's vital that it's done right. When it does work, though,
-				it can result in some very high functioning efficient teams. I'd love to promote and facilitate the
-				Agile process on any team that I'm on.
+				I'm a huge fan of the Agile methodology, but it's vital that it's done right. When it does work, it can
+				result in some very high functioning teams. I love to promote and facilitate the Agile process on any
+				team that I'm on.
 				<h2 className="header">Work Experience</h2>
 				For detailed information on my work experience, check out my LinkedIn, or check out my resume.
 			</div>
