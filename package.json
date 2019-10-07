@@ -2,7 +2,7 @@
 	"name": "wmsiddiqui-portfolio",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://wmsiddiqui.com",
+	"homepage": "https://www.wmsiddiqui.com",
 	"dependencies": {
 		"axios": "^0.18.1",
 		"bootstrap": "^4.3.1",
@@ -14,7 +14,8 @@
 		"react-scripts": "3.0.0",
 		"react-transition-group": "^4.3.0",
 		"redux": "^4.0.4",
-		"redux-thunk": "^2.3.0"
+		"redux-thunk": "^2.3.0",
+		"serve": "^11.2.0"
 	},
 	"scripts": {
 		"start": "react-scripts start",
