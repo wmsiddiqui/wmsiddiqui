@@ -16,6 +16,9 @@ const navBar = function() {
 					/>
 					<Link to="/">Waqar Siddiqui</Link>
 				</div>
+				<div className="navbarBrandCollapsed">
+					<Link to="/">WS</Link>
+				</div>
 				<div className="navbarLinks">
 					<Link to="/about">About</Link>
 					<Link to="/resume">Resume</Link>

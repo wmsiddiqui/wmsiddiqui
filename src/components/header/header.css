@@ -22,11 +22,30 @@
 	justify-content: space-between;
 }
 
-.navbarBrand {
-	text-align: left;
-	white-space: nowrap;
-}
-
 .navbarLinks a {
 	padding-left: 30px;
+}
+
+@media only screen and (min-width: 500px) {
+	.navbarBrand {
+		text-align: left;
+		white-space: nowrap;
+		display: block;
+	}
+
+	.navbarBrandCollapsed {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.navbarBrand {
+		text-align: left;
+		white-space: nowrap;
+		display: none;
+	}
+
+	.navbarBrandCollapsed {
+		display: block;
+	}
 }
