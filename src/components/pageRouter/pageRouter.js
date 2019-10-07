@@ -13,6 +13,7 @@ export default function() {
 					return (
 						<Switch location={routComponentProps.location}>
 							<Route exact path="/" component={Home} />
+							<Route path="/wmsiddiqui" component={Home} />
 							<Route path="/about" component={AboutContainer} />
 							<Route path="/projects" component={ProjectsContainer} />
 						</Switch>
