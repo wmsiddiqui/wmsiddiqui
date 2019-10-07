@@ -35,7 +35,6 @@ export function getGithubRepos(userName) {
 	return async (dispatch) => {
 		dispatch(beginGetRepos());
 		const result = await getRepos(userName);
-		console.log('results', result);
 		dispatch(completeGetRepos(result));
 	};
 }

@@ -6,7 +6,6 @@ import ProjectsView from './projectsView';
 class ProjectsContainer extends React.Component {
 	componentDidMount() {
 		if (!this.props.repos) {
-			console.log('Getting Repos!');
 			this.props.getGithubRepos('wmsiddiqui');
 		}
 	}

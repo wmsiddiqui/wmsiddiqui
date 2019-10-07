@@ -5,7 +5,6 @@ import './projects.css';
 
 export default function(props) {
 	let content;
-	console.log('ViewProps', props);
 	if (props.isLoadingRepos || !props.repos) {
 		content = (
 			<div className="loading">

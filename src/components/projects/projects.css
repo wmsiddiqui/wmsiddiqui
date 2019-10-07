@@ -1,10 +1,23 @@
-.card {
-	max-width: 45%;
-	min-width: 45%;
-	margin: 10px;
-	min-height: 180px;
-	display: flex;
-	cursor: pointer;
+@media only screen and (min-width: 500px) {
+	.card {
+		max-width: 45%;
+		min-width: 45%;
+		margin: 10px;
+		min-height: 180px;
+		display: flex;
+		cursor: pointer;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.card {
+		max-width: 100%;
+		min-width: 100%;
+		margin: 10px;
+		min-height: 180px;
+		display: flex;
+		cursor: pointer;
+	}
 }
 
 .card-container {
@@ -12,13 +25,4 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	max-width: 100%;
-}
-
-a {
-	color: black;
-}
-
-a:hover {
-	color: ;
-	text-decoration: none;
 }
