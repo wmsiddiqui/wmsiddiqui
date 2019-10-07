@@ -17,7 +17,7 @@ const navBar = function() {
 					<Link to="/">Waqar Siddiqui</Link>
 				</div>
 				<div className="navbarLinks">
-					<Link to="/about">About Me</Link>
+					<Link to="/about">About</Link>
 					<Link to="/resume">Resume</Link>
 					<Link to="/projects">Projects</Link>
 				</div>
