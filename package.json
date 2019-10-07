@@ -2,7 +2,7 @@
 	"name": "wmsiddiqui-portfolio",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "http://wmsiddiqui.github.io/wmsiddiqui/",
+	"homepage": "https://wmsiddiqui.com/",
 	"dependencies": {
 		"axios": "^0.18.1",
 		"bootstrap": "^4.3.1",
