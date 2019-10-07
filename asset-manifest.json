@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/wmsiddiqui/static/css/main.197b0ada.chunk.css",
+    "main.js": "/wmsiddiqui/static/js/main.09813422.chunk.js",
+    "main.js.map": "/wmsiddiqui/static/js/main.09813422.chunk.js.map",
+    "runtime~main.js": "/wmsiddiqui/static/js/runtime~main.534ed890.js",
+    "runtime~main.js.map": "/wmsiddiqui/static/js/runtime~main.534ed890.js.map",
+    "static/js/2.a82b454d.chunk.js": "/wmsiddiqui/static/js/2.a82b454d.chunk.js",
+    "static/js/2.a82b454d.chunk.js.map": "/wmsiddiqui/static/js/2.a82b454d.chunk.js.map",
+    "index.html": "/wmsiddiqui/index.html",
+    "precache-manifest.50436f055aa551cf6678234a1886a08d.js": "/wmsiddiqui/precache-manifest.50436f055aa551cf6678234a1886a08d.js",
+    "service-worker.js": "/wmsiddiqui/service-worker.js",
+    "static/css/main.197b0ada.chunk.css.map": "/wmsiddiqui/static/css/main.197b0ada.chunk.css.map"
+  }
+}
