@@ -15,17 +15,6 @@
 	z-index: 999;
 }
 
-.navbarItems {
-	width: 80%;
-	flex-direction: row;
-	display: flex;
-	justify-content: space-between;
-}
-
-.navbarLinks a {
-	padding-left: 30px;
-}
-
 @media only screen and (min-width: 500px) {
 	.navbarBrand {
 		text-align: left;
@@ -35,6 +24,17 @@
 
 	.navbarBrandCollapsed {
 		display: none;
+	}
+
+	.navbarItems {
+		width: 80%;
+		flex-direction: row;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.navbarLinks a {
+		padding-left: 30px;
 	}
 }
 
@@ -48,4 +48,20 @@
 	.navbarBrandCollapsed {
 		display: block;
 	}
+
+	.navbarItems {
+		width: 100%;
+		flex-direction: row;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.navbarLinks a {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+img {
+	margin-right: 5px;
 }

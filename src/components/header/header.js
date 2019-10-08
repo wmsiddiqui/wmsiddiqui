@@ -8,17 +8,27 @@ const navBar = function() {
 		<div className="navbar">
 			<div className="navbarItems">
 				<div className="navbarBrand">
-					<img
-						src={logo}
-						width="30"
-						height="30"
-						className="d-inline-block align-top"
-						alt="React Bootstrap logo"
-					/>
-					<Link to="/">Waqar Siddiqui</Link>
+					<Link to="/">
+						<img
+							src={logo}
+							width="30"
+							height="30"
+							className="d-inline-block align-top"
+							alt="React Bootstrap logo"
+						/>
+						Waqar Siddiqui
+					</Link>
 				</div>
 				<div className="navbarBrandCollapsed">
-					<Link to="/">WS</Link>
+					<Link to="/">
+						<img
+							src={logo}
+							width="30"
+							height="30"
+							className="d-inline-block align-top"
+							alt="React Bootstrap logo"
+						/>
+					</Link>
 				</div>
 				<div className="navbarLinks">
 					<Link to="/about">About</Link>

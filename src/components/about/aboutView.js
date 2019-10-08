@@ -47,7 +47,7 @@ export default function(props) {
 				<br />
 				<br />
 				My most recent hobby has been Gunpla, plastic model kits based on Mobile Suit Gundam. Check out my
-				gallary for some of my latest work!
+				gallery for some of my latest work!
 				<h2 className="header">What I Do</h2>
 				I'm a fullstack software engineer, and am interested in everything from DevOps to UI development. Early
 				on in my career I was focused on mostly backend systems. My current role at Microsoft involves a lot of
