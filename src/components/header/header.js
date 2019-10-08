@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import './header.css';
+import logo from '../../images/Logo.png';
 
 const navBar = function() {
 	return (
@@ -8,7 +9,7 @@ const navBar = function() {
 			<div className="navbarItems">
 				<div className="navbarBrand">
 					<img
-						src="https://via.placeholder.com/30"
+						src={logo}
 						width="30"
 						height="30"
 						className="d-inline-block align-top"
