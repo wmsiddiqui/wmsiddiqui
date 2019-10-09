@@ -34,6 +34,7 @@ const navBar = function() {
 					<Link to="/about">About</Link>
 					<Link to="/resume">Resume</Link>
 					<Link to="/projects">Projects</Link>
+					<Link to="/gallery">Gallery</Link>
 				</div>
 			</div>
 		</div>
