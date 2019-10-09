@@ -4,7 +4,8 @@ import Home from '../home/home';
 import AboutContainer from '../about/aboutContainer';
 import ProjectsContainer from '../projects/projectsContainer';
 import './pageRouter.css';
-import invalidView from '../invalid/invalidView';
+import InvalidView from '../invalid/invalidView';
+import GalleryView from '../gallery/galleryView';
 
 export default function() {
 	return (
@@ -16,8 +17,9 @@ export default function() {
 							<Route exact path="/" component={Home} />
 							<Route path="/wmsiddiqui" component={Home} />
 							<Route path="/about" component={AboutContainer} />
+							<Route path="/gallery" component={GalleryView} />
 							<Route path="/projects" component={ProjectsContainer} />
-							<Route component={invalidView} />
+							<Route component={InvalidView} />
 						</Switch>
 					);
 				}}
