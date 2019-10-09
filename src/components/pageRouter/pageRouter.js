@@ -4,6 +4,7 @@ import Home from '../home/home';
 import AboutContainer from '../about/aboutContainer';
 import ProjectsContainer from '../projects/projectsContainer';
 import './pageRouter.css';
+import invalidView from '../invalid/invalidView';
 
 export default function() {
 	return (
@@ -16,6 +17,7 @@ export default function() {
 							<Route path="/wmsiddiqui" component={Home} />
 							<Route path="/about" component={AboutContainer} />
 							<Route path="/projects" component={ProjectsContainer} />
+							<Route component={invalidView} />
 						</Switch>
 					);
 				}}
