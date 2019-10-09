@@ -57,7 +57,7 @@ export default function() {
 			</div>
 
 			<div className="pad" />
-			<p>
+			{/* <p>
 				These model kits come on
 				<a href="https://en.wikipedia.org/wiki/Sprue_(manufacturing)#Injection_molding"> plastic sprues </a>
 				which have to be cut to remove the parts. The parts then have to be sanded to hide the cuts where they
@@ -66,7 +66,7 @@ export default function() {
 				challege of fitting small SMD LEDs into these mini robot model kits, since most of them are less than 6
 				inches in height and have full articulation. It really allows me to think of how to engineer the wiring
 				in such a way which it not only works, but does not affect the articulation so they can remain posable.
-			</p>
+			</p> */}
 		</React.Fragment>
 	);
 }
