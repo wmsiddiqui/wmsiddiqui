@@ -21,21 +21,24 @@ export default function() {
 		<React.Fragment>
 			<h1>Gallery</h1>
 			<p>Welcome to my Gunpla gallery. Click on one of the pictures below to expand them!</p>
-			<Gallery photos={Photos} onClick={openLightbox} />
-			<ModalGateway>
-				{viewerIsOpen ? (
-					<Modal onClose={closeLightbox}>
-						<Carousel
-							currentIndex={currentImage}
-							views={Photos.map((x) => ({
-								...x,
-								srcset: x.srcSet,
-								caption: x.title
-							}))}
-						/>
-					</Modal>
-				) : null}
-			</ModalGateway>
+			<div>
+				<Gallery photos={Photos} onClick={openLightbox} />
+				<ModalGateway>
+					{viewerIsOpen ? (
+						<Modal onClose={closeLightbox} className="gallery-carousel">
+							<Carousel
+								className="gallery-carousel"
+								currentIndex={currentImage}
+								views={Photos.map((x) => ({
+									...x,
+									srcset: x.srcSet,
+									caption: x.title
+								}))}
+							/>
+						</Modal>
+					) : null}
+				</ModalGateway>
+			</div>
 			<p className="gallery-text">
 				These model kits come on
 				<a href="https://en.wikipedia.org/wiki/Sprue_(manufacturing)#Injection_molding"> plastic sprues </a>

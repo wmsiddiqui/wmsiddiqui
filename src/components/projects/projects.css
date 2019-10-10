@@ -6,6 +6,7 @@
 		min-height: 180px;
 		display: flex;
 		cursor: pointer;
+		z-index: -1;
 	}
 }
 
