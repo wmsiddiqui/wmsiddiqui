@@ -21,7 +21,7 @@ export default function(props) {
 		if (projectCards.starredRepos.length) {
 			starredReposComponent = (
 				<React.Fragment>
-					<h2>Featured Projects</h2>
+					<h1>Featured Projects</h1>
 					<div className="card-container">{projectCards.starredRepos}</div>
 				</React.Fragment>
 			);
@@ -30,7 +30,7 @@ export default function(props) {
 		if (projectCards.otherRepos.length) {
 			otherReposComponenet = (
 				<div>
-					<h2>Other Projects</h2>
+					<h1>Other Projects</h1>
 					<div className="card-container">{projectCards.otherRepos}</div>
 				</div>
 			);

@@ -6,7 +6,7 @@
 }
 
 .caption {
-	color: rgb(131, 131, 131);
+	color: rgb(56, 56, 56);
 	margin: 30px;
 }
 
@@ -19,5 +19,6 @@
 .loading {
 	height: 300px;
 	width: 100%;
+	padding-top: 100px;
 	align-content: center;
 }
