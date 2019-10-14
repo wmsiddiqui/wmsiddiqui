@@ -21,7 +21,7 @@ export default function(props) {
 		if (projectCards.starredRepos.length) {
 			starredReposComponent = (
 				<React.Fragment>
-					<h1>Featured Projects</h1>
+					<h2>Featured Projects</h2>
 					<div className="card-container">{projectCards.starredRepos}</div>
 				</React.Fragment>
 			);
@@ -30,13 +30,18 @@ export default function(props) {
 		if (projectCards.otherRepos.length) {
 			otherReposComponenet = (
 				<div>
-					<h1>Other Projects</h1>
+					<h2>Other Projects</h2>
 					<div className="card-container">{projectCards.otherRepos}</div>
 				</div>
 			);
 		}
 		content = (
 			<React.Fragment>
+				<h1>Projects</h1>
+				<p className="description-text">
+					Below are a list of public repositories which are found on my GitHub. You can also go directly to my
+					GitHub profile by <a href="https://github.com/wmsiddiqui">clicking here</a>.
+				</p>
 				{starredReposComponent}
 				<br />
 				{otherReposComponenet}

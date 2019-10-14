@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Page from './components/page/page';
 import Header from './components/header/header';
 import Resume from './components/resume/resume';
+import Home from './components/home/home';
 import './App.css';
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
 				<div className="page-container">
 					<Switch>
 						<Route path="/Resume" component={Resume} />
+						<Route exact path="/" component={Home} />
+						<Route path="/wmsiddiqui" component={Home} />
 						<Route component={Page} />
 					</Switch>
 				</div>

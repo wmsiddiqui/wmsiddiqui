@@ -1,16 +1,23 @@
 import React from 'react';
+import './home.css';
+import logoIllustration from '../../images/LogoWaqarCropped.png';
 
 export default function() {
 	return (
-		<div>
-			<h1>Waqar Siddiqui</h1>
-			<p>
-				Welcome to my website! This website was created using React and Redux. I've used the GitHub APIs to
-				display some up to date information about my projects. The code is then built and hosted on GitHub
-				pages. At the time of making this website, Redux was probably not needed, since I really don't need a
-				central store at the moment. I also have a few projects written in Node.js and C# which you can check
-				out on my GitHub. Just click the "Projects" link in the navigation bar and check them out!
-			</p>
+		<div className="first-panel">
+			<div className="logo-container">
+				<img src={logoIllustration} alt="LogoIllustration" />
+			</div>
+			<div className="text-container">
+				<div className="text">
+					<h1 className="title">Waqar Siddiqui</h1>
+					<h2>Software Engineer</h2>
+					<p>
+						I'm a fullstack software engineer who likes to make things. Check out my GitHub projects on the
+						Projects page. Or click on the About link to learn more about me.
+					</p>
+				</div>
+			</div>
 		</div>
 	);
 }
