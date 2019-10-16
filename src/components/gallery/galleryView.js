@@ -17,6 +17,7 @@ export default class GalleryView extends React.Component {
 	}
 
 	openLightbox = (event, { photo, index }) => {
+		console.log('clicked!');
 		this.setState({
 			currentImageIndex: index,
 			isViewerOpen: true
@@ -47,7 +48,7 @@ export default class GalleryView extends React.Component {
 				<div className={this.state.isLoaded ? null : 'hidden'}>
 					<Gallery photos={Photos} onClick={this.openLightbox} onLoadCallback={this.onLoad} />
 					<ModalGateway>
-						{this.state.viewerIsOpen ? (
+						{this.state.isViewerOpen ? (
 							<Modal onClose={this.closeLightbox} className="gallery-carousel">
 								<Carousel
 									className="gallery-carousel"
