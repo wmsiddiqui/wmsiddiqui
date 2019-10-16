@@ -52,7 +52,7 @@ export default class GalleryView extends React.Component {
 							<Modal onClose={this.closeLightbox} className="gallery-carousel">
 								<Carousel
 									className="gallery-carousel"
-									currentIndex={this.state.currentImage}
+									currentIndex={this.state.currentImageIndex}
 									views={Photos.map((x) => ({
 										...x,
 										srcset: x.srcSet,
