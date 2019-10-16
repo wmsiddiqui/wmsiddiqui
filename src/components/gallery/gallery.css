@@ -6,3 +6,12 @@
 .gallery-carousel {
 	z-index: 999;
 }
+
+.hidden {
+	visibility: hidden;
+	height: 0px;
+}
+
+.spinner {
+	margin: 30px;
+}
