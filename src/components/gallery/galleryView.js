@@ -17,7 +17,6 @@ export default class GalleryView extends React.Component {
 	}
 
 	openLightbox = (event, { photo, index }) => {
-		console.log('clicked!');
 		this.setState({
 			currentImageIndex: index,
 			isViewerOpen: true
