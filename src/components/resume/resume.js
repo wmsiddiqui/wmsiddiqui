@@ -2,7 +2,7 @@ import React from 'react';
 import './resume.css';
 
 const RESUME_LINK =
-	'https://docs.google.com/document/d/e/2PACX-1vR-4oguUOnGFLUvVfmVjjNxeRElI2yZ0GwOSSmC08SomiNUeATN-C92mcnM-2ZR-i0b4ImevliZxK-a/pub?embedded=true';
+	'https://docs.google.com/document/d/e/2PACX-1vTtwq5yWPSxvxuv756fS97RkCx4JrLrHzX4IClA0B9kWS5ZuiDZeF5euFwj_JZVeQtn5GlBra0M6Rbp/pub?embedded=true';
 
 export default function() {
 	return (
