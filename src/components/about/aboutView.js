@@ -28,15 +28,19 @@ export default function(props) {
 			<div className="body-content">
 				<h2 className="header">About Me</h2>
 				My name is Waqar Siddiqui. I like making everything from software to Gunpla (check out my gallery for
-				some of my work). I live near Seattle, but originally grew up near Chicago. After graduating from the
-				University of Illinois in Urbana-Champaign, I worked in Chicago for a few years. I had no intention of
-				leaving Chicago, but life had other plans for me. I somehow managed to end up living in Redmond with my
-				wife, while I work at Microsoft.
+				some of my work). Lately I've fallen in love with 3D printing with both FDM and Resin printers.
+				I live near Chicago, close to where I grew up. But I also lived in Redmond, WA for a
+				few years while working at Microsoft. I'm currently a Web Solutions Engineer at Google, working within
+				the Mastery organization.
 				<h2 className="header">Hobbies</h2>
 				I've had a wide range of hobbies over the years. I used to be (and still am) a huge fan of Yu-Gi-Oh! I
 				spent years playing the card game as a child, and eventually became an official Judge and judged local
-				tournaments. Unfortunately, (or fortunately) working full time and spending time with my wife left me
-				little to no time to pursue this hobby anymore. It will always have a special place in my heart.
+				tournaments. Over the years I've had an on/off relationship with Yu-Gi-Oh! While I gave it up and sold my
+				cards early on in my career, I tried to get back into the game once I had more free time outside of work.
+				Unfortunately the game did not feel the same to me, so I've moved on to other card games. I absolutely
+				love trading card games. These days you can find me collecting and occasionally playing the Digimon Card Game,
+				a trading card game which was launched in November of 2020. I also create some Youtube content for trading card
+				games, <a href="https://www.youtube.com/channel/UCGan6f9SVYEvsnsoUjv4XNA">which you can check out here!</a>
 				<br />
 				<br />
 				I enjoy video games, but like Yu-Gi-Oh!, I've had little time to play any of them over the past few
@@ -49,12 +53,10 @@ export default function(props) {
 				My most recent hobby has been Gunpla, plastic model kits based on Mobile Suit Gundam. Check out my
 				gallery for some of my latest work!
 				<h2 className="header">What I Do</h2>
-				I'm a fullstack software engineer, and am interested in everything from DevOps to UI development. Early
-				on in my career I was focused on mostly backend systems. My current role at Microsoft involves a lot of
-				front-end UI work, using React and Redux. I'm by no means a front-end developer, but I believe that a
-				good engineer will be whatever their team needs them to be. For the time being, my team is new to React
-				and Redux, so I've been expected to be the React and JavaScript expert to help provide guidance for my
-				team.
+				I'm a fullstack software engineer, and am interested in everything from DevOps to UI development. Languages and
+				frameworks are all just tools, so I try to be language agnostic. Professionally, I've used C#, Java, Python,
+				JavaScript/TypeScript, Ruby on Rails, VB.NET, and probably others. Tools are all situational, and good engineers
+				should know which tool to use, and when. That all being said, C# is probably one of my favorite languages.
 				<h2 className="header">Goals</h2>
 				I always strive to be a well rounded engineer. I think to do so requires me to have some working
 				knowledge of various different domains. I've worked with cloud platforms such as AWS and Azure, and
