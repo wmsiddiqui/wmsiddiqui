@@ -30,20 +30,15 @@ export default function(props) {
 				My name is Waqar Siddiqui. I like making everything from software to Gunpla (check out my gallery for
 				some of my work). Lately I've fallen in love with 3D printing with both FDM and Resin printers.
 				I live near Chicago, close to where I grew up. But I also lived in Redmond, WA for a
-				few years while working at Microsoft. I'm currently a Web Solutions Engineer at Google, working within
-				the Mastery organization.
+				few years while working at Microsoft. I then found myself working at Google within the Mastery Organization
+				for a couple of years. I'm currently a Senior Software Engineer at Atlassian.
 				<h2 className="header">Hobbies</h2>
-				I've had a wide range of hobbies over the years. I used to be (and still am) a huge fan of Yu-Gi-Oh! I
-				spent years playing the card game as a child, and eventually became an official Judge and judged local
-				tournaments. Over the years I've had an on/off relationship with Yu-Gi-Oh! While I gave it up and sold my
-				cards early on in my career, I tried to get back into the game once I had more free time outside of work.
-				Unfortunately the game did not feel the same to me, so I've moved on to other card games. I absolutely
-				love trading card games. These days you can find me collecting and occasionally playing the Digimon Card Game,
-				a trading card game which was launched in November of 2020. I also create some Youtube content for trading card
-				games, <a href="https://www.youtube.com/channel/UCGan6f9SVYEvsnsoUjv4XNA">which you can check out here!</a>
+				I've had a wide range of hobbies over the years. I absolutely love trading card games. These days you can find me
+				collecting and occasionally playing the Digimon Card Game, a trading card game which was launched in November of 2020.
+				I also create some Youtube content for trading card games, <a href="https://www.youtube.com/channel/UCGan6f9SVYEvsnsoUjv4XNA">which you can check out here!</a>
 				<br />
 				<br />
-				I enjoy video games, but like Yu-Gi-Oh!, I've had little time to play any of them over the past few
+				Although I enjoy video games, I've had little time to play any of them over the past few
 				years. I tried to play competitive Pokemon for a while, but was never very good at it. You'll still find
 				me playing Pokemon Showdown every now and then. You'll occasionally catch me playing couch co-op games
 				with my wife, like Gears and Halo. Overall, though, I think I enjoy making games more than I like
